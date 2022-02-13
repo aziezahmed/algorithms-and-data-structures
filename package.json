@@ -2,7 +2,7 @@
   "name": "algorithms-data-structures",
   "version": "1.0.0",
   "description": "",
-  "main": "./build/index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "jest"
   },
