@@ -45,7 +45,7 @@ export function reverseLinkedList(head: LinkedList): LinkedList {
   return temp;
 }
 
-export function mergeLists(head1: LinkedList, head2: LinkedList) {
+export function mergeLists(head1: LinkedList | null, head2: LinkedList | null) {
   if (head1 === null) {
     return head2;
   } else if (head2 === null) {
